@@ -4,6 +4,9 @@ import json
 
 app = Flask(__name__)
 
+@app.route('/', methods=["GET"])
+def test_route():
+    return "ffprobe server running: Route to http:0.0.0.0:5000/ffprobe-analyze"
 
 @app.route('/ffprobe-analyze', methods=["POST"])
 def scan_ffprobe():
