@@ -24,7 +24,7 @@ method=POST
 ```
 Local API:
 
-http://0.0.0.0:9000/ffprobe-analyze
+http://0.0.0.0:5000/ffprobe-analyze
 
 request json:
 
