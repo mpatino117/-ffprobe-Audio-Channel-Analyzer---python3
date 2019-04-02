@@ -29,6 +29,7 @@ def scan_ffprobe():
     return jsonify(data)
 
 
+
 # analyze data ffprobe output
 
 def analyze_ports(json):
@@ -62,4 +63,4 @@ def analyse_video_code(json):
     return dict_data
 
 
-app.run(host='0.0.0.0', port=9000)
+app.run(host='0.0.0.0', port=5000)
