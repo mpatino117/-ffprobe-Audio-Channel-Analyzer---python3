@@ -18,9 +18,8 @@ flask run
 
 ```
 
-To make request 
+### Request method=POST
 
-method=POST
 ```
 Local API:
 
@@ -32,6 +31,77 @@ request json:
     url: <some-url-goes-here>
 }
 
+```
+
+
+### Response Example
+
+```
+{
+    "audio_streams": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+    ],
+    "avg_frame_rate": "24000/1001",
+    "bit_rate": "576560040",
+    "bits_per_raw_sample": "10",
+    "codec_long_name": "Apple ProRes (iCodec Pro)",
+    "codec_name": "prores",
+    "codec_tag": "0x68637061",
+    "codec_tag_string": "apch",
+    "codec_time_base": "1001/24000",
+    "codec_type": "video",
+    "coded_height": 1716,
+    "coded_width": 4096,
+    "color_primaries": "bt709",
+    "color_range": "tv",
+    "color_space": "bt709",
+    "color_transfer": "bt709",
+    "display_aspect_ratio": "1024:429",
+    "disposition": {
+        "attached_pic": 0,
+        "clean_effects": 0,
+        "comment": 0,
+        "default": 1,
+        "dub": 0,
+        "forced": 0,
+        "hearing_impaired": 0,
+        "karaoke": 0,
+        "lyrics": 0,
+        "original": 0,
+        "timed_thumbnails": 0,
+        "visual_impaired": 0
+    },
+    "duration": "9168.450958",
+    "duration_ts": 220042823,
+    "field_order": "progressive",
+    "filename": "some_movie_url_will_go_here.mov",
+    "has_b_frames": 0,
+    "height": 1716,
+    "index": 8,
+    "level": -99,
+    "nb_frames": "219823",
+    "pix_fmt": "yuv422p10le",
+    "r_frame_rate": "24000/1001",
+    "refs": 1,
+    "sample_aspect_ratio": "1:1",
+    "start_pts": 0,
+    "start_time": "0.000000",
+    "tags": {
+        "creation_time": "2018-12-06T22:40:32.000000Z",
+        "encoder": "Apple ProRes 422 HQ",
+        "handler_name": "Core Media Video",
+        "language": "und",
+        "timecode": "00:58:30:00"
+    },
+    "time_base": "1/24000",
+    
 ```
 
 
